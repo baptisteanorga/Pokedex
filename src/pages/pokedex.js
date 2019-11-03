@@ -39,12 +39,12 @@ class Pokedex extends React.Component {
         )
 
         return (
-          <>
-            <TopBar/>
+          <div className='pokedex'>
             <Form handleSubmit={this.handleSubmit} value={this.state.value} />
+            <TopBar/>
             
             <ListPokemon data={filteredPokemon}/>
-          </>
+          </div>
         );
       }
     }

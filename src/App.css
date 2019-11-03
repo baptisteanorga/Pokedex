@@ -20,6 +20,8 @@ li{
   color:white;
   font-size:24px;
   font-family: 'Raleway', sans-serif;
+  position: fixed;
+  width: 100%;
 }
 
 .cardPokemon{
@@ -40,9 +42,23 @@ li{
 
 .form{
   color:white;
+  background-color:rgb(230,138,0);;
   font-family: 'Raleway', sans-serif;
-width: 100%;
-margin:0 auto;
+  width: 100%;
+  margin:0 auto;
+  position:fixed;
+  width: 100%;
+  padding-top:40px;
+}
+
+.form>p{
+position: absolute;
+top:60px;
+left:400px;
+}
+
+.listPokemon{
+  padding-top:100px;
 }
 
 /** LOADER */

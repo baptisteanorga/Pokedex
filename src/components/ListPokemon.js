@@ -4,7 +4,7 @@ import PokemonCard from './pokemon_card';
 const ListPokemon =({data}) =>{
     
     return(
-        <>
+        <div className='listPokemon'>
                 {data.map((pokemon,index) => (
                 <PokemonCard
                     key={index}
@@ -13,7 +13,7 @@ const ListPokemon =({data}) =>{
                 />
                 ))}
             
-      </>
+      </div>
     );
 }
 

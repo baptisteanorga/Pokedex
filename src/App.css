@@ -1,43 +1,48 @@
 .App {
-  text-align: center;
+  background: linear-gradient(to right, #2b5876,#4e4376)fixed;
+  min-height:1000px;
 }
 
 .App-logo {
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
 
 li{
   list-style: none;
 }
-.pastille {
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  display: inline-block;
+
+/** TOPBAR */
+
+.topbar{
+  background-color:rgb(230,138,0);;
+  height: 40px;
+  color:white;
+  font-size:24px;
+  font-family: 'Raleway', sans-serif;
 }
 
-.green{
-  background-color: green;
-
+.cardPokemon{
+  display:inline-block;
+  width: 180px;
+  background: white;
+  margin: 20px 20px;
+  border-radius: 20px;
+  text-align:center;
 }
-.red{
-  background-color: red;
 
+.cardPokemon>h2{
+  background-color: rgba(0, 0, 0, 0.078);
+  height: 30px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.form{
+  color:white;
+  font-family: 'Raleway', sans-serif;
+width: 100%;
+margin:0 auto;
 }
 
 /** LOADER */

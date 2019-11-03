@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter, Switch } from 'react-router-dom';
-import Pokedex from './pages/pokedex';
+import Pokedex from './pages/pokedex'; 
 
 
 class App extends Component{
